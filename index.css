@@ -1,0 +1,25 @@
+body{
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+#header {
+  width: 100%;
+  height: 25px;
+  background-color: #EEEEEE;
+  padding: 5px;
+}
+
+#buttonContainer {
+  width: 200px;
+  margin: 0 auto;
+}
+
+#logo {
+  float: left;
+}
+
+.toggleButton {
+  float: left;
+}
