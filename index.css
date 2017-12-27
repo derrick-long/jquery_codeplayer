@@ -1,7 +1,12 @@
-body{
+body {
   font-family: sans-serif;
   padding: 0;
   margin: 0;
+}
+
+textarea {
+  width: 50%;
+  resize: none;
 }
 
 #header {
@@ -47,5 +52,5 @@ body{
 }
 
 .highlightedButton {
-  background-color: grey; 
+  background-color: grey;
 }

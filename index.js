@@ -7,4 +7,7 @@ $(".toggleButton").hover(function (){
 
 $(".toggleButton").click(function (){
   $(this).toggleClass("selected");
+  $(this).removeClass("highlightedButton");
 });
+
+$("textarea").height($(window).height() - $("#header").height() - 15);
