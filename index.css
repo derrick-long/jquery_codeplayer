@@ -7,11 +7,15 @@ body {
 textarea {
   border-top: none;
   resize: none;
-  border-color: grey; 
+  border-color: grey;
 }
 
 iframe {
   border: none;
+}
+
+.hidden {
+  display: none;
 }
 
 .selected {
@@ -33,6 +37,7 @@ iframe {
 .panel {
   float: left;
   width: 50%;
+  border-left: none; 
 }
 
 #header {
